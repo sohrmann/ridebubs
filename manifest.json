@@ -1,10 +1,10 @@
 {
-  "id": "/ridebubs/",
+  "id": "/",
   "name": "RideBubs Weekly Schedule",
   "short_name": "RideBubs",
   "description": "Spin Studio Week Schedule at a Glance",
-  "start_url": "/ridebubs/",
-  "scope": "/ridebubs/",
+  "start_url": "/",
+  "scope": "/",
   "display": "standalone",
   "background_color": "#FAF9F6",
   "theme_color": "#FF6B35",

@@ -379,7 +379,7 @@ function setupEventListeners() {
 function registerServiceWorker() {
   if ("serviceWorker" in navigator) {
     window.addEventListener("load", () => {
-      navigator.serviceWorker.register("./sw.js", { scope: "/ridebubs/" })
+      navigator.serviceWorker.register("./sw.js", { scope: "/" })
         .then(reg => console.log("Service Worker registered successfully"))
         .catch(err => console.error("Service Worker registration failed", err));
     });
